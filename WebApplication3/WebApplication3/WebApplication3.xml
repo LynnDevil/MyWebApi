@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication3</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication3.Context.MyContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{WebApplication3.Context.MyContext})">
+            <summary>
+            数据库上下文
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="P:WebApplication3.Context.MyContext.Users">
+            <summary>
+            用户信息类
+            </summary>
+        </member>
+        <member name="M:WebApplication3.Controllers.SuserController.GetSuser">
+            <summary>
+            获取MySql数据库用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.SuserController.GetSuser(System.Int32)">
+            <summary>
+            获取MySql数据库指定用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.SuserController.EditSuser(System.Int32,WebApplication3.Models.Suser)">
+            <summary>
+            修改MySql数据库指定用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.SuserController.AddSuser(WebApplication3.Models.Suser)">
+            <summary>
+            新增MySql数据库用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.SuserController.DeleteSuser(System.Int32)">
+            <summary>
+            删除MySql数据库用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.TUserController.GetTuser">
+            <summary>
+            获取SQLServer数据库所有用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.TUserController.GetTuser(System.Int32)">
+            <summary>
+            获取SQLServer数据库指定ID用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.TUserController.EditTuser(System.Int32,WebApplication3.Models.Tuser)">
+            <summary>
+            修改SQLServer数据库指定用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.TUserController.AddTuser(WebApplication3.Models.Tuser)">
+            <summary>
+            新增SQLServer数据库用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.TUserController.DeleteTuser(System.Int32)">
+            <summary>
+            删除SQLServer数据库指定用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication3.Controllers.UserController">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="M:WebApplication3.Controllers.UserController.Get(System.String)">
+            <summary>
+            测试方法
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.UserController.#ctor(WebApplication3.Context.MyContext)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:WebApplication3.Controllers.UserController.GetUserItems">
+            <summary>
+            获取所有用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.UserController.GetUserItem(System.Int64)">
+            <summary>
+            获取指定ID下的用户信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.UserController.GetUserItem1(System.Int64)">
+            <summary>
+            获取指定ID下的用户信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.UserController.AddUserItem(WebApplication3.Models.User)">
+            <summary>
+            添加用户信息
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.UserController.EditTodoItem(System.Int64,WebApplication3.Models.User)">
+            <summary>
+            修改指定ID的用户信息
+            </summary>
+            <param name="id"></param>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.UserController.DeleteTodoItem(System.Int64)">
+            <summary>
+            删除指定ID的用户信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication3.Controllers.WarehouseController">
+            <summary>
+            仓库
+            </summary>
+        </member>
+        <member name="M:WebApplication3.Controllers.WarehouseController.GetWarehouse">
+            <summary>
+            获取Oracle数据库所有仓库信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.WarehouseController.GetWarehouse(System.String)">
+            <summary>
+            获取Oracle数据库指定ID仓库信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.WarehouseController.EditWarehouse(System.String,WebApplication3.Models.Warehouse)">
+            <summary>
+            修改Oracle数据库指定仓库信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.WarehouseController.AddWarehouse(WebApplication3.Models.Warehouse)">
+            <summary>
+            新增Oracle数据库仓库信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Controllers.WarehouseController.DeleteWarehouse(System.String)">
+            <summary>
+            删除Oracle数据库指定仓库信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication3.Models.ResultJson">
+            <summary>
+            返回处理结果
+            </summary>
+        </member>
+        <member name="P:WebApplication3.Models.ResultJson.Code">
+            <summary>
+            返回代码
+            </summary>
+        </member>
+        <member name="P:WebApplication3.Models.ResultJson.Message">
+            <summary>
+            返回消息
+            </summary>
+        </member>
+        <member name="T:WebApplication3.Models.User">
+            <summary>
+            用户类
+            </summary>
+        </member>
+        <member name="P:WebApplication3.Models.User.Id">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:WebApplication3.Models.User.Name">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:WebApplication3.Models.User.PassWord">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:WebApplication3.Models.Warehouse">
+            <summary>
+            仓库
+            </summary>
+        </member>
+        <member name="P:WebApplication3.Models.Warehouse.ID">
+            <summary>
+            仓库ID
+            </summary>
+        </member>
+        <member name="P:WebApplication3.Models.Warehouse.Name">
+            <summary>
+            仓库名称
+            </summary>
+        </member>
+        <member name="P:WebApplication3.Models.Warehouse.Code">
+            <summary>
+            仓库编码
+            </summary>
+        </member>
+        <member name="T:WebApplication3.Util.MyJson">
+            <summary>
+            Json格式转换
+            </summary>
+        </member>
+        <member name="M:WebApplication3.Util.MyJson.ObjectToJson(System.Object)">
+            <summary>
+            单个对象转换成Json
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication3.Util.MyJson.ObjectToJson(System.Collections.Generic.List{System.Object})">
+            <summary>
+            多个对象转换成Json
+            </summary>
+            <param name="objs"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
