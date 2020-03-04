@@ -7,5 +7,9 @@ namespace WebApplication3
 {
     public class Class
     {
+        public string SayHi()
+        {
+            return "Hello World!";
+        }
     }
 }
