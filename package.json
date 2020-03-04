@@ -1,0 +1,36 @@
+{
+  "name": "mywebapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LynnDevil/MyWebApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LynnDevil/MyWebApi/issues"
+  },
+  "homepage": "https://github.com/LynnDevil/MyWebApi#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.3"
+  },
+  "dependencies": {
+    "core-js": "^3.1.4"
+  },
+  "keywords": [
+    "\u001b[A\u001b[C\u001b[C",
+    "WebAPI接口"
+  ],
+  "description": "",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
