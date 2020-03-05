@@ -11,5 +11,10 @@ namespace WebApplication3
         {
             return "Hello World!";
         }
+
+        public string SayBye()
+        {
+            return "See you!";
+        }
     }
 }
